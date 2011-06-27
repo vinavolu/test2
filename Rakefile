@@ -5,3 +5,5 @@ require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
 Test2::Application.load_tasks
+require 'rubygems'
+gem 'ci_reporter'
